@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P5.js Background Example</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.10.0/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden; /* Prevent scrollbars */
+            position: relative;
+            color: yellow; /* Default text color */
+            background: cyan; /* Fallback background color */
+        }
+        canvas {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1; /* Set canvas behind other elements */
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Aldrich', sans-serif;
+            font-size: 50px;
+            z-index: 1; /* Bring text above canvas */
+            position: relative; /* Ensure text is above canvas */
+        }
+    </style>
+</head>
+<body>
+  <a href = "page3.html" > another page! </a>
+    <h1>Dreams by Fleetwood Mac</h1>
+    
+    <script src="sketch2.js"></script>
+</body>
+</html>
